@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You go out with me ?</title>
+    <style>
+        body {
+          background-color: palevioletred;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            margin: 0 10px;
+        }
+        .button.yes {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .button.no {
+            background-color: #f44336;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>So madam will you go out with me sometime when ur free ^_^
+      ?
+    </h1>
+    <div class="button-container">
+        <button class="button yes" onclick="response('yes')">Yes</button>
+        <button class="button no" onclick="response('no')">No</button>
+    </div>
+
+    <script>
+        function response(answer) {
+            if (answer === 'yes') {
+                alert('Thank you madam sooooo much 😁');
+            } else {
+                alert('oke👍🏻╯︿╰');
+            }
+        }
+    </script>
+    <footer>I wish we could just Hmm all day in chat 👉🏻👈🏻</footer>
+</body>
+</html>
